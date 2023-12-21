@@ -1,6 +1,6 @@
 # Kita
 
-New Website for Calibur Pixel
+New Website for Arcomua Team
 
 [![Vuetify](https://img.shields.io/badge/-Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=white)](https://vuetifyjs.com/)
 [![Vue](https://img.shields.io/badge/-Vue%203-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)

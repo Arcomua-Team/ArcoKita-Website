@@ -34,7 +34,7 @@ const routes = [
     name: 'Standard',
     component: () => import('@/views/PageStandard.vue'),
     meta: {
-      title: 'Arcomua Modpack - Arcomua Team - 创新型整合包制作小组'
+      title: 'Standard - Arcomua Modpack - Arcomua Team - 创新型整合包制作小组'
     },
   },
   {
@@ -42,7 +42,7 @@ const routes = [
     name: 'Lite',
     component: () => import('@/views/PageLite.vue'),
     meta: {
-      title: 'Arcomua Lite - Arcomua Team - 创新型整合包制作小组'
+      title: 'Lite - Arcomua Lite - Arcomua Team - 创新型整合包制作小组'
     },
   },
   {
@@ -50,7 +50,7 @@ const routes = [
     name: 'Anvil',
     component: () => import('@/views/PageAnvil.vue'),
     meta: {
-      title: 'Arcomua Anvil - Arcomua Team - 创新型整合包制作小组'
+      title: 'Anvil - Arcomua Anvil - Arcomua Team - 创新型整合包制作小组'
     },
   }
 ]
