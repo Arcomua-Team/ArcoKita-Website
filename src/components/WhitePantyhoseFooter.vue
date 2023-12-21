@@ -2,21 +2,20 @@
   <v-footer color="primary" id="white-pantyhose-footer">
     <div class="white-pantyhose-footer-left">
       <v-img :width="125" src="@/assets/fontlogo-white.webp"></v-img>
-      <p class="white-pantyhose-footer-year">© 2019 - {{ new Date().getFullYear() }}</p>
+      <p class="white-pantyhose-footer-year">© 2020 - {{ new Date().getFullYear() }}</p>
       <div class="white-pantyhose-footer-left-links">
-        <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Calibur-Pixel/">我们的开源项目</v-btn>
-        <v-btn variant="plain" size="small" target="_blank" href="https://aira.cafe">服主艾拉</v-btn>
-        <v-btn variant="plain" size="small" target="_blank" href="https://play.mcmod.cn/sv20182489.html">MCMOD宣传贴</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua-Team/">Github</v-btn>
       </div>
     </div>
-    <div class="white-pantyhose-footer-right">
+    <!-- TODO -->
+    <!-- <div class="white-pantyhose-footer-right">
       <h3>友情链接</h3>
       <div class="white-pantyhose-footer-right-links">
         <v-btn variant="plain" size="small" target="_blank" href="https://heryin.net/">和瑛</v-btn>
         <v-btn variant="plain" size="small" target="_blank" href="https://www.artformgames.com/">艺式</v-btn>
         <v-btn variant="plain" size="small" target="_blank" href="https://www.yingluo.world/">璎珞</v-btn>
       </div>
-    </div>
+    </div> -->
   </v-footer>
 </template>
 

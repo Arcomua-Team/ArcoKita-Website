@@ -10,7 +10,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "home" */ '@/views/PageHome.vue'),
     meta: {
-      title: 'Calibur Pixel - Kawaii Forever!'
+      title: 'Arcomua Team - 创新型整合包制作小组'
     },
   },
   {
@@ -18,17 +18,41 @@ const routes = [
     name: '颜色代码',
     component: () => import('@/views/PageColor.vue'),
     meta: {
-      title: '颜色代码 - Calibur Pixel - Kawaii Forever!'
+      title: '颜色代码 - Arcomua Team - 创新型整合包制作小组'
     },
   },
   {
-    path: '/donation',
-    name: '捐赠',
-    component: () => import('@/views/PageDonation.vue'),
+    path: '/download',
+    name: '下载',
+    component: () => import('@/views/PageDownload.vue'),
     meta: {
-      title: '捐赠 - Calibur Pixel - Kawaii Forever!'
+      title: '下载 - Arcomua Team - 创新型整合包制作小组'
     },
   },
+  {
+    path: '/standard',
+    name: 'Standard',
+    component: () => import('@/views/PageStandard.vue'),
+    meta: {
+      title: 'Arcomua Modpack - Arcomua Team - 创新型整合包制作小组'
+    },
+  },
+  {
+    path: '/lite',
+    name: 'Lite',
+    component: () => import('@/views/PageLite.vue'),
+    meta: {
+      title: 'Arcomua Lite - Arcomua Team - 创新型整合包制作小组'
+    },
+  },
+  {
+    path: '/anvil',
+    name: 'Anvil',
+    component: () => import('@/views/PageAnvil.vue'),
+    meta: {
+      title: 'Arcomua Anvil - Arcomua Team - 创新型整合包制作小组'
+    },
+  }
 ]
 
 const router = createRouter({

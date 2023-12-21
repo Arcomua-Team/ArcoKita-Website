@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    <v-parallax class="first-block" :height="600"
+    <!-- <v-parallax class="first-block" :height="600"
       src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png@2560w.webp">
       <div class="d-flex flex-column fill-height justify-center align-center text-white float-in-up">
         <div class="home-logo d-flex flex-column">
@@ -16,9 +16,9 @@
         <v-btn prepend-icon="mdi-content-copy" color="primary" @click="updateClipboard(); snackbar = true">复制连接地址</v-btn>
         <p class="text-shadow mt-1">{{ mcLink }}</p>
       </div>
-    </v-parallax>
+    </v-parallax> -->
 
-    <div class="second-block d-flex flex-shrink-0 flex-column flex-wrap justify-center align-center pa-8">
+    <!-- <div class="second-block d-flex flex-shrink-0 flex-column flex-wrap justify-center align-center pa-8">
       <div class="second-block-line d-flex flex-shrink-0 flex-wrap justify-center align-center">
         <HomeFeature icon="mdi-memory" title="性能">9900K级的高性能Xeon服务器CPU<br>由Paper服务端驱动</HomeFeature>
         <HomeFeature icon="mdi-pinwheel" title="可爱">倡导萌与可爱<br>Kawaii的MC社区</HomeFeature>
@@ -28,26 +28,26 @@
         <HomeFeature icon="mdi-heart" title="樱花区">经典插件生存服<br>完善的菜单、商店、社区系统</HomeFeature>
         <HomeFeature icon="mdi-music-note" title="音乐区">超平坦创造世界<br>音MADer的天堂</HomeFeature>
       </div>
-    </div>
+    </div> -->
 
-    <v-parallax class="third-block" :height="300"
+    <!-- <v-parallax class="third-block" :height="300"
       src="https://i0.hdslb.com/bfs/album/a340523de38f5cf7b393cb62b15c3dd0d1960d71.png@2560w.webp">
       <div class="d-flex flex-column fill-height justify-center align-center text-white">
         <h2 class="subheading">和谐友爱还很可爱的公益插件服</h2>
       </div>
-    </v-parallax>
+    </v-parallax> -->
   </div>
-  <v-snackbar v-model="snackbar">
+  <!-- <v-snackbar v-model="snackbar">
     已复制 {{ mcLink }}
     <template v-slot:actions>
       <v-btn color="pink" variant="text" @click="snackbar = false">
         关闭
       </v-btn>
     </template>
-  </v-snackbar>
+  </v-snackbar> -->
 </template>
 
-<script setup>
+<!-- <script setup>
 import HomeFeature from "@/components/HomeFeature.vue"
 const mcLink = "mc.calibur.tv";
 function updateClipboard() {
@@ -58,7 +58,7 @@ function updateClipboard() {
     alert('复制失败QWQ 是不是禁止了剪贴板权限呀');
   });
 }
-</script>
+</script> -->
 
 <script>
 export default {
