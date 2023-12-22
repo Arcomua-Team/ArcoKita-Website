@@ -12,11 +12,12 @@ html {
 }
 
 body {
+  -webkit-user-select: none;
   user-select: none;
 }
 
 ::selection {
-  background-color: rgba(240, 110, 142, 0.3)
+  background-color: rgba(100, 149, 237, 0.3)
 }
 
 .a-primary {

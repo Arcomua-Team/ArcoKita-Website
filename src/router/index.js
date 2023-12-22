@@ -44,14 +44,6 @@ const routes = [
     meta: {
       title: 'Lite - Arcomua Lite - Arcomua Team - 创新型整合包制作小组'
     },
-  },
-  {
-    path: '/anvil',
-    name: 'Anvil',
-    component: () => import('@/views/PageAnvil.vue'),
-    meta: {
-      title: 'Anvil - Arcomua Anvil - Arcomua Team - 创新型整合包制作小组'
-    },
   }
 ]
 

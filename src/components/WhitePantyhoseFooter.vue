@@ -5,9 +5,9 @@
       <p class="white-pantyhose-footer-year">© 2020 - {{ new Date().getFullYear() }}</p>
       <div class="white-pantyhose-footer-left-links">
         <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua-Team/">Github</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua-Team/ArcoKita-Website">Source</v-btn>
       </div>
     </div>
-    <!-- TODO -->
     <!-- <div class="white-pantyhose-footer-right">
       <h3>友情链接</h3>
       <div class="white-pantyhose-footer-right-links">

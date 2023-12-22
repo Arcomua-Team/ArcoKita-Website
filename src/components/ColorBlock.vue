@@ -10,7 +10,7 @@
   <v-snackbar v-model="snackbar">
     已复制 {{ colorValue }}
     <template v-slot:actions>
-      <v-btn color="pink" variant="text" @click="snackbar = false">
+      <v-btn color="blue" variant="text" @click="snackbar = false">
         关闭
       </v-btn>
     </template>
