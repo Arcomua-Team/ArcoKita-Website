@@ -1,21 +1,19 @@
 <template>
   <div class="home-container">
     <v-parallax class="first-block" :height="600"
-      src="https://i0.hdslb.com/bfs/new_dyn/360b70d7960e2ff8ce317451c83f8b7e291344932.png@2560w.webp">
+      src="https://i0.hdslb.com/bfs/new_dyn/ab88fd50796d5f715a1e09053e122b38291344932.jpg@2560w.webp">
       <div class="d-flex flex-column fill-height justify-center align-center text-white float-in-up">
         <div class="home-logo d-flex flex-column">
           <img width="200" height="200" class="home-logo-image" src="@/assets/logo.svg" />
-          <!-- <img width="200" class="home-logo-text" src="@/assets/fontlogo-white.webp" /> -->
-          <!-- <h1 style="display: none">Calibur Pixel</h1> -->
+          <img width="200" class="home-logo-text" src="@/assets/fontlogo-white.webp" />
+          <h1 style="display: none">Arcomua Team</h1>
         </div>
         <div class="d-flex flex-column justify-center align-center py-8 text-shadow">
-          <h4 class="subheading">Arcomua Team</h4>
-          <p>创新型整合包制作小组</p>
+          <h4 class="subheading">Minecraft整合包制作小组</h4>
         </div>
-        <!-- <v-btn prepend-icon="mdi-content-copy" color="primary" @click="updateClipboard(); snackbar = true">复制连接地址</v-btn>
-        <p class="text-shadow mt-1">{{ mcLink }}</p> -->
       </div>
     </v-parallax>
+
     <div class="second-block d-flex flex-shrink-0 flex-column flex-wrap justify-center align-center pa-8">
       <div class="second-block-line d-flex flex-shrink-0 flex-wrap justify-center align-center">
         <HomeFeature icon="mdi-memory" title="性能">高强度的优化<br>让游戏体验更佳</HomeFeature>
@@ -27,6 +25,7 @@
         <HomeFeature icon="mdi-thumb-up" title="回馈社区">使用宽松的创作协议<br>供玩家自由修改</HomeFeature>
       </div>
     </div>
+
     <v-parallax class="third-block" :height="300"
       src="https://i0.hdslb.com/bfs/new_dyn/146385c27d1d04cdb6b2d8843ae667a1291344932.png@2560w.webp">
       <div class="d-flex flex-column fill-height justify-center align-center text-white">
@@ -34,27 +33,10 @@
       </div>
     </v-parallax>
   </div>
-  <!-- <v-snackbar v-model="snackbar">
-    已复制 {{ mcLink }}
-    <template v-slot:actions>
-      <v-btn color="pink" variant="text" @click="snackbar = false">
-        关闭
-      </v-btn>
-    </template>
-  </v-snackbar> -->
 </template>
 
 <script setup>
 import HomeFeature from "@/components/HomeFeature.vue"
-// const mcLink = "mc.calibur.tv";
-// function updateClipboard() {
-//   navigator.clipboard.writeText(mcLink).then(() => {
-//     /* clipboard successfully set */
-//   }, () => {
-//     /* clipboard write failed */
-//     alert('复制失败QWQ 是不是禁止了剪贴板权限呀');
-//   });
-// }
 </script>
 
 <script>
