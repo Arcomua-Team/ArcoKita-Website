@@ -1,4 +1,4 @@
-# Kita
+# ArcoKita
 
 New Website for Arcomua Team
 
@@ -11,7 +11,6 @@ New Website for Arcomua Team
 [![Sass](https://img.shields.io/badge/-Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
 
 [![Material Design 2](https://img.shields.io/badge/-Material%20Design%202-00629B?style=for-the-badge&logo=material-design&logoColor=white)](https://m2.material.io/)
-
 
 ## Project setup
 
