@@ -7,17 +7,19 @@
         </div>
         <div class="d-flex flex-column justify-center align-center py-8 text-shadow">
           <h2 class="subheading">Arcomua Modpack</h2>
+          <p>QQ群: 892836166</p>
+          <p>版本: 1.20.4-1.13.2</p>
         </div>
       </div>
     </v-parallax>
 
-    <v-container>
+    <v-container class="second-block">
       <div class="page-container">
         <div class="page-section-color">
           <h1 class="text-primary float-in-right">整合介绍</h1>
           <p class="subheading my-4 float-in-right">Arcomua Modpack 是一个以优化游戏性能为主要目标，对原版进行深度美化的整合包。在丰富玩家体验的同时，也追求着更好的性能表现。</p>
           <h2 class="text-primary float-in-right">内容概览</h2>
-          <p class="subheading my-4 float-in-right">包含多项性能优化、错误修复；对部分界面进行了美化；内置多种生电相关工具。</p>
+          <p class="subheading my-4 float-in-right">包含多项性能优化、错误修复；对部分游戏界面进行了美化；内置多种生电相关工具。</p>
         </div>
         <v-divider></v-divider>
         <div>
@@ -39,8 +41,7 @@
 h1,
 h2,
 p,
-th,
-a {
+th {
   user-select: text;
 }
   

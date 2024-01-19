@@ -6,34 +6,30 @@
           <img width="200" height="200" class="home-logo-image" src="@/assets/lite_logo.png" />
         </div>
         <div class="d-flex flex-column justify-center align-center py-8 text-shadow">
-          <h2 class="subheading">Arcomua Lite - 狂热性能</h2>
+          <h2 class="subheading">Arcomua Lite</h2>
+          <p>QQ群: 856952931</p>
+          <p>版本: 1.20.2</p>
         </div>
       </div>
     </v-parallax>
     <v-container>        
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+      <div class="page-container">
+        <div class="page-section-color">
+          <h1 class="text-primary float-in-right">整合介绍</h1>
+          <p class="subheading my-4 float-in-right">Arcomua Lite 是一个对原版进行高度性能优化的整合包。在追求着更好的性能表现的同时，保持原版内容不变并带给玩家舒适的游戏体验。</p>
+          <h2 class="text-primary float-in-right">内容概览</h2>
+          <p class="subheading my-4 float-in-right">包含多项性能优化、错误修复；内置多种生电相关工具。</p>
+        </div>
+        <v-divider></v-divider>
+        <div>
+          <h2 class="text-primary float-in-right">下载链接</h2>
+          <h3 class="text-primary">推荐下载</h3>
+          <v-btn color="green" elevation="2" rounded href="https://modrinth.com/modpack/arcomua-lite">Modrinth</v-btn>
+          <h3 class="text-primary">备用下载</h3>
+          <v-btn color="red" elevation="2" rounded href="https://www.miaofile.com/s/Ayrib">MiaoFile</v-btn>
+          <v-btn color="red" elevation="2" rounded href="https://pan.huang1111.cn/s/2m53UN?path=%2F">huang1111网盘</v-btn>
+        </div>
+      </div>
     </v-container>
   </div>
 </template>

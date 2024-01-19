@@ -18,15 +18,7 @@ const routes = [
     name: '颜色代码',
     component: () => import('@/views/PageColor.vue'),
     meta: {
-      title: '颜色代码 - Arcomua Team - 整合包制作小组'
-    },
-  },
-  {
-    path: '/download',
-    name: '下载',
-    component: () => import('@/views/PageDownload.vue'),
-    meta: {
-      title: '下载 - Arcomua Team - 整合包制作小组'
+      title: '颜色代码 - Arcomua Team 整合包制作小组'
     },
   },
   {
@@ -34,7 +26,7 @@ const routes = [
     name: 'Standard',
     component: () => import('@/views/PageStandard.vue'),
     meta: {
-      title: 'Standard - Arcomua Modpack - Arcomua Team - 整合包制作小组'
+      title: 'Arcomua Modpack - Arcomua Team 整合包制作小组'
     },
   },
   {
@@ -42,7 +34,15 @@ const routes = [
     name: 'Lite',
     component: () => import('@/views/PageLite.vue'),
     meta: {
-      title: 'Lite - Arcomua Lite - Arcomua Team - 整合包制作小组'
+      title: 'Arcomua Lite - Arcomua Team 整合包制作小组'
+    },
+  },
+  {
+    path: '/anvil',
+    name: 'Anvil',
+    component: () => import('@/views/PageAnvil.vue'),
+    meta: {
+      title: 'Arcomua Anvil - Arcomua Team 整合包制作小组'
     },
   }
 ]
