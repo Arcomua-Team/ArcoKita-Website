@@ -29,7 +29,7 @@
     <v-parallax class="third-block" :height="300"
       src="https://i0.hdslb.com/bfs/new_dyn/146385c27d1d04cdb6b2d8843ae667a1291344932.png@2560w.webp">
       <div class="d-flex flex-column fill-height justify-center align-center text-white">
-        <h2 class="subheading">The place where we fly our dreams.</h2>
+        <h2 class="subheading">Where All Miracles Begin.</h2>
       </div>
     </v-parallax>
   </div>
