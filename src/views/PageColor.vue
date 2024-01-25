@@ -48,7 +48,7 @@ import ColorBlock from "@/components/ColorBlock.vue"
 </script>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 h1,
 h2,
 p,

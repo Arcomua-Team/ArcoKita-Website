@@ -47,7 +47,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .first-block {
   &.v-parallax--active>.v-img__img {
     filter: brightness(0.8) blur(2px);
@@ -78,6 +78,10 @@ export default {
 .home-logo {
   gap: 8px;
   filter: drop-shadow(0 6px 8px rgba(0, 0, 0, 0.3));
+}
+
+.home-logo-image {
+  filter: brightness(100);
 }
 
 .text-shadow {

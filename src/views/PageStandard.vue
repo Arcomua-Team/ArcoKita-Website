@@ -17,34 +17,38 @@
       <div class="page-container">
         <div class="page-section-color">
           <h1 class="text-primary float-in-right">整合介绍</h1>
-          <p class="subheading my-4 float-in-right">Arcomua Modpack 是一个以优化游戏性能为主要目标，对原版进行深度美化的整合包。在丰富玩家体验的同时，也追求着更好的性能表现。</p>
-          <h2 class="text-primary float-in-right">内容概览</h2>
-          <p class="subheading my-4 float-in-right">包含多项性能优化、错误修复；对部分游戏界面进行了美化；内置多种生电相关工具。</p>
+          <p class="subheading my-4 float-in-left">Arcomua Modpack 是一个以优化游戏性能为主要目标，对原版进行深度美化的整合包。在丰富玩家体验的同时，也追求着更好的性能表现。</p>
+          <h2 class="text-primary mt-8 float-in-right">内容概览</h2>
+          <p class="subheading my-4 float-in-left">包含多项性能优化、错误修复；对部分游戏界面进行了美化；内置多种生电相关工具。</p>
         </div>
         <v-divider></v-divider>
         <div>
           <h2 class="text-primary float-in-right">下载链接</h2>
-          <h3 class="text-primary">推荐下载</h3>
-          <v-btn color="green" elevation="2" rounded href="https://modrinth.com/modpack/arcomua">Modrinth</v-btn>
-          <h3 class="text-primary">备用下载</h3>
-          <v-btn color="primary" elevation="2" rounded href="https://www.123pan.com/s/CBgbVv-0SYoA.html">123网盘</v-btn>
-          <v-btn color="primary" elevation="2" rounded href="https://www.miaofile.com/s/Ayrib">MiaoFile</v-btn>
-          <v-btn color="primary" elevation="2" rounded href="https://pan.huang1111.cn/s/2m53UN?path=%2F">huang1111网盘</v-btn>
+          <div class="float-in-left">
+            <h3 class="mt-8 mb-2">推荐下载</h3>
+            <v-btn color="green" hover href="https://modrinth.com/modpack/arcomua">Modrinth</v-btn>
+            <h3 class="mt-6 mb-2">备用下载</h3>
+            <div class="d-flex flex-wrap ga-3">
+              <v-btn color="primary" hover href="https://www.123pan.com/s/CBgbVv-0SYoA.html">123网盘</v-btn>
+              <v-btn color="primary" hover href="https://www.miaofile.com/s/Ayrib">MiaoFile</v-btn>
+              <v-btn color="primary" hover href="https://pan.huang1111.cn/s/2m53UN?path=%2F">huang1111网盘</v-btn>
+            </div>
+          </div>
         </div>
       </div>
     </v-container>
 
   </div>
 </template>
-  
-<style lang="scss">
+
+<style lang="scss" scoped>
 h1,
 h2,
 p,
 th {
   user-select: text;
 }
-  
+
 .page-section-color {
   display: flex;
   flex-direction: column;
@@ -87,4 +91,3 @@ th {
 }
 
   </style>
-  
