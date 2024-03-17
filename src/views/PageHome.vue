@@ -5,12 +5,12 @@
       <div class="d-flex flex-column fill-height justify-center align-center text-white float-in-up">
         <div class="home-logo d-flex flex-column">
           <img width="200" height="200" class="home-logo-image" src="@/assets/logo.svg" />
-          <img width="200" class="home-logo-text" src="@/assets/fontlogo-white.webp" />
+          <!-- <img width="200" class="home-logo-text" src="@/assets/fontlogo-white.webp" /> -->
           <h1 style="display: none">Arcomua Team</h1>
         </div>
-        <div class="d-flex flex-column justify-center align-center py-8 text-shadow">
+        <!-- <div class="d-flex flex-column justify-center align-center py-8 text-shadow">
           <h4 class="subheading">Minecraft整合包制作小组</h4>
-        </div>
+        </div> -->
       </div>
     </v-parallax>
 

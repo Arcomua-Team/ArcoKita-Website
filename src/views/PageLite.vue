@@ -16,7 +16,7 @@
       <div class="page-container">
         <div class="page-section-color">
           <h1 class="text-primary float-in-right">整合介绍</h1>
-          <p class="subheading my-4 float-in-left">Arcomua Lite 是一个对原版进行高度性能优化的整合包。在追求着更好的性能表现的同时，保持原版内容不变并带给玩家舒适的游戏体验。</p>
+          <p class="subheading my-4 float-in-left">Arcomua Lite 是一个对原版进行高度性能优化的整合包，适合追求极致的原版生存和服务器玩家。在追求着更好的性能表现的同时，尽可能保持原版游戏性不变并带给玩家舒适的游戏体验。</p>
           <h2 class="text-primary mt-8 float-in-right">内容概览</h2>
           <p class="subheading my-4 float-in-left">包含多项性能优化、错误修复；内置多种生电相关工具。</p>
         </div>

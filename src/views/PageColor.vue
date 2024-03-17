@@ -2,8 +2,8 @@
   <v-container>
     <div class="page-container">
       <div class="page-section-color">
-        <h1 class="text-primary float-in-right">颜色代码</h1>
-        <p class="subheading my-4 float-in-right">你可以使用颜色代码来给文字添加颜色和风格</p>
+        <h1 class="text-primary float-in-right">颜色代码帮助</h1>
+        <p class="subheading my-4 float-in-right">在 Minecraft <b>服务器</b>中，通常可以使用以下颜色代码</p>
       </div>
       <div class="page-section-color">
         <h2 class="text-primary float-in-right">通用颜色代码</h2>

@@ -17,7 +17,7 @@
       <div class="page-container">
         <div class="page-section-color">
           <h1 class="text-primary float-in-right">整合介绍</h1>
-          <p class="subheading my-4 float-in-left">Arcomua Modpack 是一个以优化游戏性能为主要目标，对原版进行深度美化的整合包。在丰富玩家体验的同时，也追求着更好的性能表现。</p>
+          <p class="subheading my-4 float-in-left">Arcomua Modpack 是一个以优化游戏性能为主要目标，同时对原版进行美化和增加许多小工具的整合包，适合原版生存和服务器玩家。在丰富玩家体验的同时，也追求着更好的性能表现。</p>
           <h2 class="text-primary mt-8 float-in-right">内容概览</h2>
           <p class="subheading my-4 float-in-left">包含多项性能优化、错误修复；对部分游戏界面进行了美化；内置多种生电相关工具。</p>
         </div>
