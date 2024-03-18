@@ -2,7 +2,7 @@
   <v-footer color="primary" id="white-pantyhose-footer">
     <div class="white-pantyhose-footer-left">
       <v-img :width="200" src="@/assets/fontlogo-white.webp"></v-img>
-      <p class="white-pantyhose-footer-year">© 2020 - {{ new Date().getFullYear() }}</p>
+      <p class="white-pantyhose-footer-year">CC-BY-NC-SA-4.0 2020 - {{ new Date().getFullYear() }}</p>
       <div class="white-pantyhose-footer-left-links">
         <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua-Team/">Github</v-btn>
         <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua-Team/ArcoKita-Website">Source</v-btn>
