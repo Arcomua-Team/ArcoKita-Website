@@ -29,7 +29,6 @@
             <h3 class="mt-6 mb-2">备用下载</h3>
             <div class="d-flex flex-wrap ga-3">
               <v-btn color="red" hover href="https://www.miaofile.com/s/Ayrib">MiaoFile</v-btn>
-              <v-btn color="red" hover href="https://pan.huang1111.cn/s/2m53UN?path=%2F">huang1111网盘</v-btn>
             </div>
           </div>
         </div>

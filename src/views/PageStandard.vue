@@ -31,7 +31,6 @@
             <div class="d-flex flex-wrap ga-3">
               <v-btn color="primary" hover href="https://www.123pan.com/s/CBgbVv-0SYoA.html">123网盘</v-btn>
               <v-btn color="primary" hover href="https://www.miaofile.com/s/Ayrib">MiaoFile</v-btn>
-              <v-btn color="primary" hover href="https://pan.huang1111.cn/s/2m53UN?path=%2F">huang1111网盘</v-btn>
             </div>
           </div>
         </div>
