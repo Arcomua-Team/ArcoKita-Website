@@ -8,7 +8,7 @@
           <div class="d-flex flex-column justify-center align-center py-8 text-shadow">
             <h2 class="subheading">Arcomua Anvil</h2>
             <p>QQ群: 892836166</p>
-            <p>版本: 1.20.2-1.7.10</p>
+            <p>版本: 1.21.1-1.7.10</p>
           </div>
         </div>
       </v-parallax>
@@ -16,7 +16,7 @@
         <div class="page-container">
         <div class="page-section-color">
           <h1 class="text-primary float-in-right">整合介绍</h1>
-          <p class="subheading my-4 float-in-left">Arcomua Anvil 是 Arcomua Modpack 的Forge/NeoForge移植版，该整合包的以更好的性能优化为目标，带给玩家舒适的游戏体验。</p>
+          <p class="subheading my-4 float-in-left">Arcomua Anvil是 Arcomua Modpack 的Forge/NeoForge移植版，该整合包的以更好的性能优化为目标，带给玩家舒适的游戏体验。</p>
           <h2 class="text-primary mt-8 float-in-right">内容概览</h2>
           <p class="subheading my-4 float-in-left">包含多项性能优化、错误修复；对部分游戏界面进行了美化；内置多种生电相关工具。</p>
         </div>
