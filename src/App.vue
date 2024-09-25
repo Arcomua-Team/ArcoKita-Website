@@ -9,9 +9,11 @@
       </router-view-->
     </DefaultLayout>
   </v-app>
+  <SpeedInsights />
 </template>
 
 <script setup>
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 import DefaultLayout from "@/layouts/DefaultLayout.vue"
 </script>
 
