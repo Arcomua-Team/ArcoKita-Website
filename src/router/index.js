@@ -22,11 +22,11 @@ const routes = [
     },
   },
   {
-    path: '/standard',
-    name: 'Standard',
-    component: () => import('@/views/PageStandard.vue'),
+    path: '/cloth',
+    name: 'Cloth',
+    component: () => import('@/views/PageCloth.vue'),
     meta: {
-      title: 'Arcomua Modpack - Arcomua Team 整合包制作小组'
+      title: 'Arcomua Cloth - Arcomua Team 整合包制作小组'
     },
   },
   {
