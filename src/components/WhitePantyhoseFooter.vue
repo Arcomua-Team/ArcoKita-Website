@@ -5,13 +5,12 @@
       <p class="white-pantyhose-footer-year">CC-BY-NC-SA-4.0 2020 - {{ new Date().getFullYear() }}</p>
       <div class="white-pantyhose-footer-left-links">
         <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua/">Github</v-btn>
-        <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua/ArcoKita-Website">Source</v-btn>
+        <v-btn variant="plain" size="small" target="_blank" href="https://github.com/Arcomua/Website">Source</v-btn>
       </div>
     </div>
     <div class="white-pantyhose-footer-right">
       <h3>友情链接</h3>
       <div class="white-pantyhose-footer-right-links">
-        <!-- <v-btn variant="plain" size="small" target="_blank" href="https://heryin.net/">和瑛</v-btn> -->
         <v-btn variant="plain" size="small" target="_blank" href="https://mc.calibur.tv/">Calibur Pixel</v-btn>
       </div>
     </div>
