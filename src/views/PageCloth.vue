@@ -27,11 +27,11 @@
           <div class="float-in-left">
             <h3 class="mt-8 mb-2">推荐下载</h3>
             <v-btn color="green-lighten-1" hover href="https://modrinth.com/modpack/arcomua">Modrinth</v-btn>
-            <h3 class="mt-6 mb-2">备用下载</h3>
+            <!-- <h3 class="mt-6 mb-2">备用下载</h3>
             <div class="d-flex flex-wrap ga-3">
               <v-btn color="primary" hover href="https://www.123pan.com/s/CBgbVv-0SYoA.html">123网盘</v-btn>
               <v-btn color="primary" hover href="https://www.miaofile.com/s/Ayrib">MiaoFile</v-btn>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

@@ -13,6 +13,7 @@
   <v-divider />
   <v-list>
     <v-list-subheader>帮助</v-list-subheader>
+    <v-list-item prepend-icon="mdi-download" title="下载站" href="https://dl.arcomua.com/"></v-list-item>
     <v-list-item prepend-icon="mdi-note-multiple" title="帮助中心" href="https://support.arcomua.com/"></v-list-item>
   </v-list>
 </template>
